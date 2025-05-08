@@ -13,7 +13,7 @@ class UserSession:
         except RuntimeError as e:
             print(f"Error: {e}")
 
-# Example usage test11
+# Example usage test11 crash test
 if __name__ == "__main__":
     session = UserSession()
     session.logout()  # Logs out successfully
